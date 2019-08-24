@@ -1,1 +1,4 @@
 "# DKCX-substratum" 
+
+App
+  - Tachiyomi
