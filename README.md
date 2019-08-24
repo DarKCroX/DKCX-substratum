@@ -3,4 +3,4 @@
 App
   - Tachiyomi
 
-![screenshot](https://github.com/DarKCroX/DKCX-substratum/master/Screenshot.png?raw=true "screenshot")
+![](Screenshot.png)
