@@ -1,151 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--============-->
-    <!-- Base Theme -->
-    <!--============-->
-    <!--<style name="Theme"/>-->
-
-    <!--==============-->
-    <!-- Light Themes -->
-    <!--=======-======-->
-    <!--<style name="Theme.Base" parent="@*eu.kanade.tachiyomi.debug:style/Theme.AppCompat.Light.NoActionBar">-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/colorPrimary</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/colorPrimaryDark</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorAccent">@*eu.kanade.tachiyomi.debug:color/colorAccentLight</item>-->
-        <!--<item name="@*android:textColorPrimary">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryLight</item>-->
-        <!--<item name="@*android:textColorSecondary">@*eu.kanade.tachiyomi.debug:color/textColorSecondaryLight</item>-->
-        <!--<item name="@*android:textColorHint">@*eu.kanade.tachiyomi.debug:color/textColorHintLight</item>-->
-        <!--<item name="@*android:textColorPrimaryInverse">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryDark</item>-->
-        <!--<item name="@*android:textColorSecondaryInverse">@*eu.kanade.tachiyomi.debug:color/textColorSecondaryDark</item>-->
-        <!--<item name="@*android:textColorHintInverse">@*eu.kanade.tachiyomi.debug:color/textColorHintDark</item>-->
-        <!--<item name="@*android:colorBackground">@*eu.kanade.tachiyomi.debug:color/backgroundLight</item>-->
-        <!--<item name="@*android:listSelector">@*eu.kanade.tachiyomi.debug:attr/colorAccent</item>-->
-        <!--<item name="@*android:divider">@*eu.kanade.tachiyomi.debug:color/dividerLight</item>-->
-        <!--<item name="@*android:listDivider">@*eu.kanade.tachiyomi.debug:drawable/line_divider_light</item>-->
-
-        <!--&lt;!&ndash; Themes &ndash;&gt;-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:windowActionModeOverlay">true</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:actionBarTheme">@*eu.kanade.tachiyomi.debug:style/Theme.ActionBar.Light</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:preferenceTheme">@*eu.kanade.tachiyomi.debug:style/PreferenceThemeOverlay.Material</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:alertDialogTheme">@*eu.kanade.tachiyomi.debug:style/Theme.AlertDialog.Light</item>-->
-
-
-        <!--&lt;!&ndash; Custom Attributes&ndash;&gt;-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:selectable_list_drawable">@*eu.kanade.tachiyomi.debug:drawable/list_item_selector_light</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:selectable_library_drawable">@*eu.kanade.tachiyomi.debug:drawable/library_item_selector_light</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:text_color_primary">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryLight</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:background_card">@*eu.kanade.tachiyomi.debug:color/dialogLight</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:icon_color">@*eu.kanade.tachiyomi.debug:color/iconColorLight</item>-->
-    <!--</style>-->
-
-    <!--<style name="Theme.Tachiyomi" parent="Theme.Base">-->
-        <!--&lt;!&ndash; Attributes specific for SDK 16 to SDK 20 &ndash;&gt;-->
-    <!--</style>-->
-
     <!--=============-->
     <!-- Dark Themes -->
     <!--=============-->
-    <!--<style name="Theme.Base.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.AppCompat.NoActionBar">-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/colorDarkPrimary</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/colorDarkPrimaryDark</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorAccent">@*eu.kanade.tachiyomi.debug:color/colorAccentDark</item>-->
-        <!--<item name="@*android:textColorPrimary">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryDark</item>-->
-        <!--<item name="@*android:textColorSecondary">@*eu.kanade.tachiyomi.debug:color/textColorSecondaryDark</item>-->
-        <!--<item name="@*android:textColorHint">@*eu.kanade.tachiyomi.debug:color/textColorHintDark</item>-->
-        <!--<item name="@*android:textColorPrimaryInverse">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryLight</item>-->
-        <!--<item name="@*android:textColorSecondaryInverse">@*eu.kanade.tachiyomi.debug:color/textColorSecondaryLight</item>-->
-        <!--<item name="@*android:textColorHintInverse">@*eu.kanade.tachiyomi.debug:color/textColorHintLight</item>-->
-        <!--<item name="@*android:colorBackground">@*eu.kanade.tachiyomi.debug:color/backgroundDark</item>-->
-        <!--<item name="@*android:listSelector">@*eu.kanade.tachiyomi.debug:attr/colorAccent</item>-->
-        <!--<item name="@*android:divider">@*eu.kanade.tachiyomi.debug:color/dividerDark</item>-->
-        <!--<item name="@*android:listDivider">@*eu.kanade.tachiyomi.debug:drawable/line_divider_dark</item>-->
+    <style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
+        <item name="*android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="*android:statusBarColor">@*android:color/transparent</item>
+        <item name="*android:navigationBarColor">@*android:color/transparent</item>
+        <item name="*android:windowBackground">@*eu.kanade.tachiyomi.debug:color/md_grey_900_75</item>
+        <item name="*android:colorBackgroundCacheHint">@null</item>
+        <item name="*android:windowShowWallpaper">true</item>
+        <item name="*android:colorBackground">#BF212121</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*android:color/transparent</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="*eu.kanade.tachiyomi.debug:background_card">@*android:color/transparent</item>
+        <item name="*eu.kanade.tachiyomi.debug:md_background_color">#BF212121</item>
+        <item name="*eu.kanade.tachiyomi.debug:actionBarTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
 
-        <!--&lt;!&ndash; Themes &ndash;&gt;-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:windowActionModeOverlay">true</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:actionBarTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:actionBarPopupTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.AppCompat</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:preferenceTheme">@*eu.kanade.tachiyomi.debug:style/PreferenceThemeOverlay.Material</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:md_background_color">@*eu.kanade.tachiyomi.debug:color/dialogDark</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:alertDialogTheme">@*eu.kanade.tachiyomi.debug:style/Theme.AlertDialog.Dark</item>-->
-
-
-        <!--&lt;!&ndash; Custom Attributes&ndash;&gt;-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:navigation_view_theme">@style/Theme.Widget.NavigationView.Dark</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:selectable_list_drawable">@*eu.kanade.tachiyomi.debug:drawable/list_item_selector_dark</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:selectable_library_drawable">@*eu.kanade.tachiyomi.debug:drawable/library_item_selector_dark</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:text_color_primary">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryDark</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:background_card">@*eu.kanade.tachiyomi.debug:color/dialogDark</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:icon_color">@*eu.kanade.tachiyomi.debug:color/iconColorDark</item>-->
-
-        <!--<item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>             &lt;!&ndash; aku tak igt apa aku tgh buat kat sini &ndash;&gt;-->
-    <!--</style>-->
-
-    <!--<style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">-->
-        <!-- Attributes specific for SDK 16 to SDK 20 -->
-    <!--</style>-->
-
-    <!--================-->
-    <!-- DarkBlue Theme -->
-    <!--================-->
+    <!--=================-->
+    <!-- DarkBlue Themes -->
+    <!--==================-->
     <style name="Theme.Tachiyomi.DarkBlue" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
         <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/colorPrimary</item>
         <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/colorPrimaryDark</item>
-        <!--modify-->
+        <item name="*android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="*android:statusBarColor">@*android:color/transparent</item>
+        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/colorDarkPrimaryDark</item>
         <item name="@*eu.kanade.tachiyomi.debug:navigation_view_theme">@*eu.kanade.tachiyomi.debug:style/Theme.Widget.NavigationView</item>
     </style>
 
     <!--==============-->
     <!-- Amoled Theme -->
     <!--==============-->
-    <style name="Theme.Base.Amoled" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
-        <item name="@*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/colorAmoledPrimary</item>
-        <item name="@*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/colorAmoledPrimary</item>
-        <item name="@*android:colorBackground">@*eu.kanade.tachiyomi.debug:color/md_black_1000</item>
-
-        <!-- Custom Attributes-->
-        <item name="@*eu.kanade.tachiyomi.debug:selectable_list_drawable">@*eu.kanade.tachiyomi.debug:drawable/list_item_selector_amoled</item>
-        <item name="@*eu.kanade.tachiyomi.debug:selectable_library_drawable">@*eu.kanade.tachiyomi.debug:drawable/library_item_selector_amoled</item>
-        <item name="@*eu.kanade.tachiyomi.debug:background_card">@*eu.kanade.tachiyomi.debug:color/dialog_amoled</item>
-
-        <!--modify-->
-        <item name="@*eu.kanade.tachiyomi.debug:navigation_view_theme">@*eu.kanade.tachiyomi.debug:style/Theme.Widget.NavigationView</item>
-    </style>
-
-    <style name="Theme.Tachiyomi.Amoled" parent="@style/Theme.Base.Amoled">
-        <!-- Attributes specific for SDK 16 to SDK 20 -->
+    <style name="Theme.Tachiyomi.Amoled" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Amoled">
+        <item name="@*android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="@*android:statusBarColor">@*android:color/transparent</item>
+        <item name="@*android:navigationBarColor">@*android:color/transparent</item>
     </style>
 
     <!--==============-->
     <!-- Reader Theme -->
     <!--==============-->
-    <!--<style name="Theme.Base.Reader.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/colorDarkPrimary</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/colorDarkPrimaryDark</item>-->
-        <!--<item name="@*android:colorBackground">@*android:color/black</item>-->
-    <!--</style>-->
+    <style name="Theme.Base.Reader.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimaryDark</item>
+        <item name="*android:colorBackground">@*android:color/black</item>
+        <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*android:windowIsTranslucent">true</item>
+    </style>
 
-    <!--<style name="Theme.Base.Reader.Light" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base">-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/colorDarkPrimary</item>-->
-        <!--<item name="@*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/colorDarkPrimaryDark</item>-->
-        <!--<item name="@*android:colorBackground">@*android:color/white</item>-->
-    <!--</style>-->
-
-    <!--<style name="Theme.Reader" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Reader.Dark">-->
-        <!--&lt;!&ndash; Attributes specific for SDK 16 to SDK 20 &ndash;&gt;-->
-    <!--</style>-->
-
-    <!--<style name="Theme.Reader.Light" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Reader.Light">-->
-        <!--&lt;!&ndash; Attributes specific for SDK 16 to SDK 20 &ndash;&gt;-->
-    <!--</style>-->
-
-
-    <!--===============-->
-    <!-- Launch Screen -->
-    <!--===============-->
-    <!--<style name="Theme.BrandedLaunch">-->
-        <!--<item name="@*android:windowBackground">@*eu.kanade.tachiyomi.debug:drawable/branded_logo</item>-->
-    <!--</style>-->
-
-
+    <style name="Theme.Base.Reader.Light" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base">
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimaryDark</item>
+        <item name="*android:colorBackground">@*android:color/white</item>
+        <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+    </style>
 </resources>
