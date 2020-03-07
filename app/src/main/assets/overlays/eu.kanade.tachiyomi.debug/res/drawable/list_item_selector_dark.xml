@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="@*eu.kanade.tachiyomi.debug:color/rippleColorDark">
-    <item>
+    android:color="@*eu.kanade.tachiyomi.debug:color/colorAccentDark">
+    <item
+        android:id="@*android:id/mask"
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <solid android:color="@*android:color/white" />
+        </shape>
+    </item>
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
         <selector>
-            <item android:state_selected="true">
-                <color android:color="@*eu.kanade.tachiyomi.debug:color/rippleColorDark" />
-            </item>
             <item android:state_activated="true">
-                <color android:color="@*eu.kanade.tachiyomi.debug:color/rippleColorDark" />
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp" />
+                    <solid android:color="#80bfbfbf" />
+                </shape>
             </item>
+
             <item>
-                <color android:color="@*eu.kanade.tachiyomi.debug:color/md_grey_900_75" />
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp" />
+                    <solid android:color="@*eu.kanade.tachiyomi.debug:color/md_black_1000_12" />
+                </shape>
             </item>
         </selector>
     </item>

@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Widget.NavigationView" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Widget">
-        <item name="*eu.kanade.tachiyomi.debug:colorControlHighlight">#212121</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">#3399FF</item>
+    <style name="Widget.Design.BottomNavigationView" parent="">
+        <!--        weird box at bottom navigation-->
+        <item name="*eu.kanade.tachiyomi.debug:elevation">0dp</item>
+        <!--        weird box at bottom navigation-->
+        <item name="*eu.kanade.tachiyomi.debug:enforceMaterialTheme">false</item>
+        <item name="*eu.kanade.tachiyomi.debug:enforceTextAppearance">false</item>
+        <item name="*eu.kanade.tachiyomi.debug:itemBackground">?*android:attr/selectableItemBackgroundBorderless</item>
+        <item name="*eu.kanade.tachiyomi.debug:itemHorizontalTranslationEnabled">true</item>
+        <item name="*eu.kanade.tachiyomi.debug:itemIconSize">@*eu.kanade.tachiyomi.debug:dimen/design_bottom_navigation_icon_size</item>
     </style>
 
-    <style name="Theme.Widget.NavigationView.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Widget.NavigationView">
-        <item name="*eu.kanade.tachiyomi.debug:colorControlHighlight">#66ffffff</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">#99000000</item>
+    <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Platform.ThemeOverlay.AppCompat.Dark">
+        <item name="*android:colorForeground">@*eu.kanade.tachiyomi.debug:color/foreground_material_dark</item>
+        <!--        Action bar/toolbar-->
+        <item name="*android:colorBackground">#BF0d0d0d</item>
+        <!--        Action bar/toolbar-->
+        <item name="*android:textColorPrimary">@*eu.kanade.tachiyomi.debug:color/abc_primary_text_material_dark</item>
+        <item name="*android:textColorPrimaryDisableOnly">@*eu.kanade.tachiyomi.debug:color/abc_primary_text_disable_only_material_dark</item>
+        <item name="*android:textColorSecondary">@*eu.kanade.tachiyomi.debug:color/abc_secondary_text_material_dark</item>
+        <item name="*android:textColorPrimaryInverse">@*eu.kanade.tachiyomi.debug:color/abc_primary_text_material_light</item>
+        <item name="*android:textColorSecondaryInverse">@*eu.kanade.tachiyomi.debug:color/abc_secondary_text_material_light</item>
+        <item name="*android:textColorHintInverse">@*eu.kanade.tachiyomi.debug:color/abc_hint_foreground_material_light</item>
+        <item name="*android:windowBackground">@*eu.kanade.tachiyomi.debug:color/background_material_dark</item>
+        <item name="*android:textColorHighlight">@*eu.kanade.tachiyomi.debug:color/highlighted_text_material_dark</item>
+        <item name="*android:textColorHint">@*eu.kanade.tachiyomi.debug:color/abc_hint_foreground_material_dark</item>
+        <item name="*android:colorForegroundInverse">@*eu.kanade.tachiyomi.debug:color/foreground_material_light</item>
+        <item name="*android:textColorTertiary">@*eu.kanade.tachiyomi.debug:color/abc_secondary_text_material_dark</item>
+        <item name="*android:textColorTertiaryInverse">@*eu.kanade.tachiyomi.debug:color/abc_secondary_text_material_light</item>
+        <item name="*android:colorBackgroundCacheHint">@*eu.kanade.tachiyomi.debug:color/abc_background_cache_hint_selector_material_dark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorBackgroundFloating">@*eu.kanade.tachiyomi.debug:color/background_floating_material_dark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorButtonNormal">@*eu.kanade.tachiyomi.debug:color/button_material_dark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorControlHighlight">@*eu.kanade.tachiyomi.debug:color/ripple_material_dark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorControlNormal">?*android:textColorSecondary</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorSwitchThumbNormal">@*eu.kanade.tachiyomi.debug:color/switch_thumb_material_dark</item>
+        <item name="*eu.kanade.tachiyomi.debug:isLightTheme">false</item>
+    </style>
+
+
+    <style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
+        <item name="*eu.kanade.tachiyomi.debug:tabBarIconColor">@*eu.kanade.tachiyomi.debug:color/colorAccentDark</item>
+
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*android:color/transparent</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="*android:navigationBarColor">@*android:color/transparent</item>
+        <item name="*android:statusBarColor">@*android:color/transparent</item>
+
+        <item name="*android:colorBackground">#BF0d0d0d</item>
+        <item name="*eu.kanade.tachiyomi.debug:md_background_color">#BF0d0d0d</item>
+
+        <item name="*eu.kanade.tachiyomi.debug:background_card">@*eu.kanade.tachiyomi.debug:color/md_black_1000_12</item>
+
+        <item name="*android:windowBackground">#BF1a1a1a</item>
+        <item name="*android:windowShowWallpaper">true</item>
     </style>
 </resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@*eu.kanade.tachiyomi.debug:id/nav_library"
+        android:icon="@*eu.kanade.tachiyomi.debug:drawable/ic_book_black_24dp"
+        android:title="@*eu.kanade.tachiyomi.debug:string/label_library" />
+    <item
+        android:id="@*eu.kanade.tachiyomi.debug:id/nav_updates"
+        android:icon="@*eu.kanade.tachiyomi.debug:drawable/ic_new_releases_black_24dp"
+        android:title="@*eu.kanade.tachiyomi.debug:string/label_recent_updates" />
+    <item
+        android:id="@*eu.kanade.tachiyomi.debug:id/nav_more"
+        android:icon="@*eu.kanade.tachiyomi.debug:drawable/ic_more_horiz_black_24dp"
+        android:title="@*eu.kanade.tachiyomi.debug:string/label_more" />
+    <item
+        android:id="@*eu.kanade.tachiyomi.debug:id/nav_history"
+        android:icon="@*eu.kanade.tachiyomi.debug:drawable/ic_history_black_24dp"
+        android:title="@*eu.kanade.tachiyomi.debug:string/label_recent_manga" />
+    <item
+        android:id="@*eu.kanade.tachiyomi.debug:id/nav_catalogues"
+        android:icon="@*eu.kanade.tachiyomi.debug:drawable/ic_explore_black_24dp"
+        android:title="@*eu.kanade.tachiyomi.debug:string/label_catalogues" />
+</menu>
