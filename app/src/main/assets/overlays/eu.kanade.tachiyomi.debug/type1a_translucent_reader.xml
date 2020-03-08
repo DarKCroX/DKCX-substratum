@@ -2,19 +2,19 @@
 <resources>
     <style name="Theme.Base.Reader.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
         <item name="*android:colorBackground">#bf000000</item>
-        <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimaryDark</item>
-        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimaryDark</item>
+        <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
         <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimaryDark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
         <item name="*android:windowShowWallpaper">true</item>
     </style>
 
     <style name="Theme.Base.Reader.Light" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base">
         <item name="*android:colorBackground">#bfffffff</item>
-        <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimaryDark</item>
-        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimaryDark</item>
+        <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
         <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimaryDark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
         <item name="*android:windowShowWallpaper">true</item>
     </style>
 </resources>
