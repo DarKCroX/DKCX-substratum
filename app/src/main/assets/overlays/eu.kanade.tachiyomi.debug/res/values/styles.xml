@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
+        <item name="*eu.kanade.tachiyomi.debug:colorSurface">@null</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*android:color/transparent</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="*android:statusBarColor">@*android:color/transparent</item>
+        <item name="*android:navigationBarColor">@*android:color/transparent</item>
+
+        <item name="*eu.kanade.tachiyomi.debug:md_background_color">#BF1a1a1a</item>
+        <item name="*android:colorBackground">#BF1a1a1a</item>
+
+        <item name="*android:windowShowWallpaper">true</item>
+    </style>
+
+
+    <style name="Theme.AlertDialog.Dark" parent="*eu.kanade.tachiyomi.debug:style/Theme.AlertDialog">
+        <item name="*eu.kanade.tachiyomi.debug:colorSurface">@null</item>
+        <item name="*android:windowBackground">#BF1a1a1a</item>
+    </style>
+
+
+    <style name="Theme.Widget.CardView" parent="@*eu.kanade.tachiyomi.debug:style/CardView">
+        <item name="*android:padding">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_top_and_bottom_padding</item>
+        <item name="*android:layout_width">fill_parent</item>
+        <item name="*android:layout_height">wrap_content</item>
+        <item name="*android:layout_marginTop">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>
+        <item name="*android:layout_marginBottom">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>
+        <item name="*android:layout_marginStart">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>
+        <item name="*android:layout_marginEnd">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>
+        <item name="*eu.kanade.tachiyomi.debug:cardBackgroundColor">@*eu.kanade.tachiyomi.debug:color/md_black_1000_12</item>
+        <item name="*eu.kanade.tachiyomi.debug:cardElevation">0.0dip</item>
+        <item name="*eu.kanade.tachiyomi.debug:cardCornerRadius">15.0dip</item>
+    </style>
+
+
     <style name="Widget.Design.BottomNavigationView" parent="">
         <!--        weird box at bottom navigation-->
         <item name="*eu.kanade.tachiyomi.debug:elevation">1dp</item>
@@ -9,22 +43,6 @@
         <item name="*eu.kanade.tachiyomi.debug:itemBackground">?*android:attr/selectableItemBackgroundBorderless</item>
         <item name="*eu.kanade.tachiyomi.debug:itemHorizontalTranslationEnabled">true</item>
         <item name="*eu.kanade.tachiyomi.debug:itemIconSize">@*eu.kanade.tachiyomi.debug:dimen/design_bottom_navigation_icon_size</item>
-    </style>
-
-    <style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
-        <item name="*eu.kanade.tachiyomi.debug:tabBarIconColor">@*eu.kanade.tachiyomi.debug:color/colorAccentDark</item>
-
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*android:color/transparent</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*android:color/transparent</item>
-        <item name="*android:navigationBarColor">@*android:color/transparent</item>
-        <item name="*android:statusBarColor">@*android:color/transparent</item>
-
-        <item name="*android:colorBackground">#BF0d0d0d</item>
-        <item name="*eu.kanade.tachiyomi.debug:md_background_color">#BF0d0d0d</item>
-
-        <item name="*eu.kanade.tachiyomi.debug:background_card">@*eu.kanade.tachiyomi.debug:color/md_black_1000_12</item>
-
-        <item name="*android:windowBackground">#BF1a1a1a</item>
-        <item name="*android:windowShowWallpaper">true</item>
+        <item name="*eu.kanade.tachiyomi.debug:labelVisibilityMode">auto</item>
     </style>
 </resources>

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*eu.kanade.tachiyomi.debug:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="*android:colorBackground">#BF0d0d0d</item>
-    </style>
+
 </resources>

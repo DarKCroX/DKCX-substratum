@@ -109,7 +109,6 @@
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
     </attr>
-    <attr name="background_card" format="reference|integer" />
     <attr name="badgeGravity">
         <enum name="BOTTOM_END" value="8388693" />
         <enum name="BOTTOM_START" value="8388691" />
@@ -1013,7 +1012,6 @@
     <attr name="selectableItemBackground" format="reference" />
     <attr name="selectableItemBackgroundBorderless" format="reference" />
     <attr name="selectable_library_drawable" format="reference|integer" />
-    <attr name="selectable_list_drawable" format="reference|integer" />
     <attr name="shapeAppearance" format="reference" />
     <attr name="shapeAppearanceLargeComponent" format="reference" />
     <attr name="shapeAppearanceMediumComponent" format="reference" />
@@ -1093,8 +1091,6 @@
     <attr name="switchTextOff" format="string" />
     <attr name="switchTextOn" format="string" />
     <attr name="tabBackground" format="reference" />
-    <attr name="tabBarIconColor" format="reference|integer" />
-    <attr name="tabBarIconInactive" format="reference|integer" />
     <attr name="tabContentStart" format="dimension" />
     <attr name="tabGravity">
         <enum name="center" value="1" />
@@ -1169,7 +1165,6 @@
     <attr name="textInputStyle" format="reference" />
     <attr name="textLocale" format="string" />
     <attr name="textStartPadding" format="dimension" />
-    <attr name="text_color_primary" format="reference|integer" />
     <attr name="theme" format="reference" />
     <attr name="themeLineHeight" format="dimension" />
     <attr name="thickness" format="dimension" />

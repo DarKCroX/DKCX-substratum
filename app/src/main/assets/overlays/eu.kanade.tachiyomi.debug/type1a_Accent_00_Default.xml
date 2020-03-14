@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
+        <item name="*eu.kanade.tachiyomi.debug:colorAccent">#bf3399FF</item>
+    </style>
+
+    <color name="colorAccentDark">#3399FF</color>
+    <color name="md_blue_A400">#2979FF</color>
+    <color name="md_red_500">#BFF44336</color>
+</resources>
