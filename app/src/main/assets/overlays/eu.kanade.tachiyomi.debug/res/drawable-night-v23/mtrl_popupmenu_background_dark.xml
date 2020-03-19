@@ -12,7 +12,7 @@
     </item>
     <item>
         <shape>
-            <solid android:color="@*eu.kanade.tachiyomi.debug:color/mtrl_popupmenu_overlay_color" />
+<!--            <solid android:color="@*eu.kanade.tachiyomi.debug:color/mtrl_popupmenu_overlay_color" />-->
             <corners
                 android:bottomLeftRadius="4.0dip"
                 android:bottomRightRadius="4.0dip"
