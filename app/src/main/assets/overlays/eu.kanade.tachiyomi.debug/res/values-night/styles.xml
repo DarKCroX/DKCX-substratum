@@ -33,6 +33,11 @@
     </style>
 
 
+    <style name="Widget.MaterialComponents.BottomSheet.Modal" parent="@*eu.kanade.tachiyomi.debug:style/Widget.MaterialComponents.BottomSheet">
+        <item name="*android:elevation">0.0dp</item>
+        <item name="*eu.kanade.tachiyomi.debug:backgroundTint">#331A1A1A</item>
+    </style>
+
     <style name="Theme.Splash" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
         <item name="*android:windowBackground">@*eu.kanade.tachiyomi.debug:drawable/splash_background</item>
         <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/backgroundDark</item>
