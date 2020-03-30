@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
-        <item name="*eu.kanade.tachiyomi.debug:colorSurface">@null</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorSurface">@*android:color/transparent</item>
         <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*android:color/transparent</item>
         <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*android:color/transparent</item>
         <item name="*android:statusBarColor">@*android:color/transparent</item>

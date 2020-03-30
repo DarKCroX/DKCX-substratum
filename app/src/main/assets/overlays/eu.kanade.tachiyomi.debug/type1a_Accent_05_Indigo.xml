@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="md_blue_A400">#BF3F51B5</color>
     <color name="colorAccentDark">#BF3F51B5</color>
     <color name="md_red_500">#BFF44336</color>
 </resources>

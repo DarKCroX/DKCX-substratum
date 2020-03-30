@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<type0>
+
+    <!-- ABOUT RESOURCE ATTRIBUTES
+
+         lighten [0..1] adds the lightness component from the selected color that converted to HSL components
+         darken [0..1] subtracts the lightness component from the selected color that converted to HSL components
+         saturate [0..1] adds the saturation component from the selected color that converted to HSL components
+         desaturate [0..1] subtracts the saturation component from the selected color that converted to HSL components
+         alpha [0..1] controls the transparency of the generated color
+
+         alpha attribute in resource object will override the user selected alpha.
+         Preset colors with alpha is allowed when alpha_allowed is set true.
+
+         Multiple resources is possible in any condition.
+    -->
+
+    <type0a name="Custom Color Accent" color="#00000000" alpha_allowed="true">
+        <preset>#FFF44336</preset>
+        <preset>#FFE91E63</preset>
+        <preset>#FF9C27B0</preset>
+        <preset>#FF673AB7</preset>
+        <preset>#FF3F51B5</preset>
+        <preset>#FF2196F3</preset>
+        <preset>#FF03A9F4</preset>
+        <preset>#FF00BCD4</preset>
+        <preset>#FF009688</preset>
+        <preset>#FF4CAF50</preset>
+        <preset>#FF8BC34A</preset>
+        <preset>#FFCDDC39</preset>
+        <preset>#FFFFEB3B</preset>
+        <preset>#FFFFC107</preset>
+        <preset>#FFFF9800</preset>
+        <preset>#FFFF5722</preset>
+        <resource name="colorAccentDark" />
+    </type0a>
+</type0>
