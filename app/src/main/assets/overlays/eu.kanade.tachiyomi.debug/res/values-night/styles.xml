@@ -6,14 +6,10 @@
     </style>
 
 
-    <style name="Theme.Widget.CardView" parent="@*eu.kanade.tachiyomi.debug:style/CardView">
-        <item name="*android:padding">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_top_and_bottom_padding</item>
-        <item name="*android:layout_width">fill_parent</item>
-        <item name="*android:layout_height">wrap_content</item>
-        <item name="*android:layout_marginTop">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>
-        <item name="*android:layout_marginBottom">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>
-        <item name="*android:layout_marginStart">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>
-        <item name="*android:layout_marginEnd">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>
+    <style name="Theme.Widget.CardView.Item" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Widget.CardView">
+        <item name="*android:layout_marginTop">@*eu.kanade.tachiyomi.debug:dimen/space_between_cards</item>
+        <item name="*android:layout_marginBottom">@*eu.kanade.tachiyomi.debug:dimen/space_between_cards</item>
+
         <item name="*eu.kanade.tachiyomi.debug:cardBackgroundColor">@*eu.kanade.tachiyomi.debug:color/md_black_1000_12</item>
         <item name="*eu.kanade.tachiyomi.debug:cardElevation">0.0dip</item>
         <item name="*eu.kanade.tachiyomi.debug:cardCornerRadius">8.0dip</item>
@@ -32,11 +28,6 @@
         <item name="*eu.kanade.tachiyomi.debug:labelVisibilityMode">auto</item>
     </style>
 
-
-    <style name="Widget.MaterialComponents.BottomSheet.Modal" parent="@*eu.kanade.tachiyomi.debug:style/Widget.MaterialComponents.BottomSheet">
-        <item name="*android:elevation">0.0dp</item>
-        <item name="*eu.kanade.tachiyomi.debug:backgroundTint">#331A1A1A</item>
-    </style>
 
     <style name="Theme.Splash" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
         <item name="*android:windowBackground">@*eu.kanade.tachiyomi.debug:drawable/splash_background</item>

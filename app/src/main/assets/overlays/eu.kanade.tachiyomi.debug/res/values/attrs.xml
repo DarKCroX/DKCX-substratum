@@ -63,25 +63,6 @@
     <attr name="arrowHeadLength" format="dimension" />
     <attr name="arrowShaftLength" format="dimension" />
     <attr name="assetName" format="string" />
-    <attr name="atg_backgroundColor" format="color" />
-    <attr name="atg_borderColor" format="color" />
-    <attr name="atg_borderStrokeWidth" format="dimension" />
-    <attr name="atg_checkedBackgroundColor" format="color" />
-    <attr name="atg_checkedBorderColor" format="color" />
-    <attr name="atg_checkedMarkerColor" format="color" />
-    <attr name="atg_checkedTextColor" format="color" />
-    <attr name="atg_dashBorderColor" format="color" />
-    <attr name="atg_horizontalPadding" format="dimension" />
-    <attr name="atg_horizontalSpacing" format="dimension" />
-    <attr name="atg_inputHint" format="string" />
-    <attr name="atg_inputHintColor" format="color" />
-    <attr name="atg_inputTextColor" format="color" />
-    <attr name="atg_isAppendMode" format="boolean" />
-    <attr name="atg_pressedBackgroundColor" format="color" />
-    <attr name="atg_textColor" format="color" />
-    <attr name="atg_textSize" format="dimension" />
-    <attr name="atg_verticalPadding" format="dimension" />
-    <attr name="atg_verticalSpacing" format="dimension" />
     <attr name="autoCompleteTextViewStyle" format="reference" />
     <attr name="autoSizeMaxTextSize" format="dimension" />
     <attr name="autoSizeMinTextSize" format="dimension" />
@@ -1083,6 +1064,7 @@
     <attr name="summary" format="string" />
     <attr name="summaryOff" format="string" />
     <attr name="summaryOn" format="string" />
+    <attr name="swipeRefreshLayoutProgressSpinnerBackgroundColor" format="color" />
     <attr name="switchMinWidth" format="dimension" />
     <attr name="switchPadding" format="dimension" />
     <attr name="switchPreferenceCompatStyle" format="reference" />
@@ -1136,7 +1118,6 @@
     <attr name="tabTextAppearance" format="reference" />
     <attr name="tabTextColor" format="color" />
     <attr name="tabUnboundedRipple" format="boolean" />
-    <attr name="tagGroupStyle" format="reference" />
     <attr name="textAllCaps" format="reference|boolean" />
     <attr name="textAppearanceBody1" format="reference" />
     <attr name="textAppearanceBody2" format="reference" />
@@ -1227,10 +1208,6 @@
         <enum name="src_over" value="3" />
     </attr>
     <attr name="ttcIndex" format="integer" />
-    <attr name="typeface">
-        <enum name="ptsansNarrow" value="0" />
-        <enum name="ptsansNarrowBold" value="1" />
-    </attr>
     <attr name="updatesContinuously" format="boolean" />
     <attr name="useCompatPadding" format="boolean" />
     <attr name="useMaterialThemeColors" format="boolean" />

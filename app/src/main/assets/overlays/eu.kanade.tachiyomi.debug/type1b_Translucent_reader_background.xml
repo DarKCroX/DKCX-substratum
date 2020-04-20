@@ -1,32 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.Base.Reader.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorOnPrimary">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryDark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryVariant">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorSurface">#bf1a1a1a</item>
+
         <item name="*android:colorBackground">#bf000000</item>
         <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
         <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
-        <item name="*eu.kanade.tachiyomi.debug:actionBarPopupTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents</item>
-        <item name="*eu.kanade.tachiyomi.debug:actionBarTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorOnPrimary">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryDark</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorSurface">#bf1a1a1a</item>
-        <item name="*android:windowShowWallpaper">true</item>
 
+        <item name="*eu.kanade.tachiyomi.debug:actionBarTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="*eu.kanade.tachiyomi.debug:actionBarPopupTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents</item>
+        <item name="*eu.kanade.tachiyomi.debug:switchStyle">@*eu.kanade.tachiyomi.debug:style/Theme.Widget.BasicSwitch</item>
+
+        <item name="*android:windowShowWallpaper">true</item>
         <item name="*android:backgroundDimEnabled">false</item>
+        <item name="*android:elevation">0.0dp</item>
     </style>
 
     <style name="Theme.Base.Reader.Light" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base">
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorOnPrimary">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryDark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryVariant">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorSurface">#bfe5e5e5</item>
+
         <item name="*android:colorBackground">#bfffffff</item>
         <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
         <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
-        <item name="*eu.kanade.tachiyomi.debug:actionBarPopupTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents</item>
-        <item name="*eu.kanade.tachiyomi.debug:actionBarTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorOnPrimary">@*eu.kanade.tachiyomi.debug:color/textColorPrimaryDark</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*eu.kanade.tachiyomi.debug:color/readerColorDarkPrimary</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorSurface">#bfe5e5e5</item>
-        <item name="*android:windowShowWallpaper">true</item>
 
+        <item name="*eu.kanade.tachiyomi.debug:actionBarTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="*eu.kanade.tachiyomi.debug:actionBarPopupTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents</item>
+        <item name="*eu.kanade.tachiyomi.debug:switchStyle">@*eu.kanade.tachiyomi.debug:style/Theme.Widget.BasicSwitch</item>
+
+        <item name="*android:windowShowWallpaper">true</item>
         <item name="*android:backgroundDimEnabled">false</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorAccent">@*eu.kanade.tachiyomi.debug:color/colorAccentDark</item>
     </style>
 </resources>

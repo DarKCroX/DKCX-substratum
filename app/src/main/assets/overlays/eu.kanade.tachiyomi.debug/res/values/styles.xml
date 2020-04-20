@@ -3,7 +3,7 @@
     <style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
         <item name="*eu.kanade.tachiyomi.debug:colorSurface">@*android:color/transparent</item>
         <item name="*eu.kanade.tachiyomi.debug:colorPrimary">@*android:color/transparent</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorPrimaryVariant">@*android:color/transparent</item>
         <item name="*android:statusBarColor">@*android:color/transparent</item>
         <item name="*android:navigationBarColor">@*android:color/transparent</item>
 
@@ -14,6 +14,6 @@
 
         <item name="*eu.kanade.tachiyomi.debug:colorFilterActive">@*eu.kanade.tachiyomi.debug:color/colorAccentDark</item>
 
-        <item name="*eu.kanade.tachiyomi.debug:snackbarStyle">@*eu.kanade.tachiyomi.debug:style/Theme.Widget.Snackbar</item>
+        <item name="*eu.kanade.tachiyomi.debug:actionModeBackground">@*eu.kanade.tachiyomi.debug:drawable/abc_list_selector_background_transition_holo_light</item>
     </style>
 </resources>
