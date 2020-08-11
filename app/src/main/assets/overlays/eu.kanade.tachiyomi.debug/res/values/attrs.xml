@@ -250,6 +250,8 @@
     <attr name="colorControlNormal" format="color" />
     <attr name="colorError" format="reference|color" />
     <attr name="colorFilterActive" format="reference|integer" />
+    <attr name="colorLibrarySelection" format="reference|integer" />
+    <attr name="colorLibrarySelectionActive" format="reference|integer" />
     <attr name="colorOnBackground" format="reference|string|integer|boolean|color|float|dimension|fraction" />
     <attr name="colorOnError" format="color" />
     <attr name="colorOnPrimary" format="color" />
@@ -993,7 +995,6 @@
     <attr name="selectable" format="boolean" />
     <attr name="selectableItemBackground" format="reference" />
     <attr name="selectableItemBackgroundBorderless" format="reference" />
-    <attr name="selectable_library_drawable" format="reference|integer" />
     <attr name="shapeAppearance" format="reference" />
     <attr name="shapeAppearanceLargeComponent" format="reference" />
     <attr name="shapeAppearanceMediumComponent" format="reference" />

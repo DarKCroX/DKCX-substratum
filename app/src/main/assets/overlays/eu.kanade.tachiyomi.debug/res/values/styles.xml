@@ -12,8 +12,12 @@
 
         <item name="*android:windowShowWallpaper">true</item>
 
-        <item name="*eu.kanade.tachiyomi.debug:colorFilterActive">@*eu.kanade.tachiyomi.debug:color/colorAccentDark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorFilterActive">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item>
 
         <item name="*eu.kanade.tachiyomi.debug:actionModeBackground">@*eu.kanade.tachiyomi.debug:drawable/abc_list_selector_background_transition_holo_light</item>
+
+
+        <item name="*eu.kanade.tachiyomi.debug:colorAccent">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorSecondary">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item>
     </style>
 </resources>

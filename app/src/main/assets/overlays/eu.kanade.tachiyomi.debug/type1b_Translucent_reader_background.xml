@@ -17,6 +17,8 @@
         <item name="*android:windowShowWallpaper">true</item>
         <item name="*android:backgroundDimEnabled">false</item>
         <item name="*android:elevation">0.0dp</item>
+
+        <item name="*eu.kanade.tachiyomi.debug:colorAccent">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item>
     </style>
 
     <style name="Theme.Base.Reader.Light" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base">
@@ -35,6 +37,7 @@
 
         <item name="*android:windowShowWallpaper">true</item>
         <item name="*android:backgroundDimEnabled">false</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorAccent">@*eu.kanade.tachiyomi.debug:color/colorAccentDark</item>
+
+        <item name="*eu.kanade.tachiyomi.debug:colorAccent">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item>
     </style>
 </resources>

@@ -18,7 +18,7 @@
         <preset>#FFFFC107</preset>
         <preset>#FFFF9800</preset>
         <preset>#FFFF5722</preset>
-        <resource name="colorAccentDark" />
+        <resource name="holo_blue_bright" />
     </type0a>
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="@*eu.kanade.tachiyomi.debug:color/colorAccentDark">
+    android:color="?*android:attr/colorAccent">
     <item
         android:id="@*android:id/mask"
         android:bottom="2dp"
@@ -21,7 +21,7 @@
             <item android:state_activated="true">
                 <shape android:shape="rectangle">
                     <corners android:radius="4dp" />
-                    <solid android:color="#bfbfbfbf" />
+                    <solid android:color="?*android:attr/colorAccent" />
                 </shape>
             </item>
 

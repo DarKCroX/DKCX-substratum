@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorAccentDark">#BF3F51B5</color>
-    <color name="md_red_500">#BFF44336</color>
+<!--    <style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">-->
+<!--        <item name="*eu.kanade.tachiyomi.debug:colorAccent">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item>-->
+<!--		<item name="*eu.kanade.tachiyomi.debug:colorSecondary">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item>-->
+<!--    </style>-->
+	
+    <color name="holo_blue_bright">#BF3F51B5</color>
 </resources>
