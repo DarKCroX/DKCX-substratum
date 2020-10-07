@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ThemeOverlay.MaterialComponents.Dark.ActionBar" parent="@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="*android:colorBackground">#bf1a1a1a</item>
-    </style>
-
-	<style name="Theme.Tachiyomi.Dark" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
+	<style name="Theme.Tachiyomi.Dark" parent="">
 		<item name="*eu.kanade.tachiyomi.debug:windowActionModeOverlay">true</item>
 	</style>
 </resources>

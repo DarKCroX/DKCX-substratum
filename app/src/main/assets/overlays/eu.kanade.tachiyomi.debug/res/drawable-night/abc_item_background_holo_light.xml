@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="18dp"
+                android:topLeftRadius="18dp" />
+            <solid android:color="@*eu.kanade.tachiyomi.debug:color/holo_blue_bright"/>
+        </shape>
+    </item>
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:top="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#bf1a1a1a"/>
+            <corners
+                android:bottomLeftRadius="18dp"
+                android:topLeftRadius="18dp" />
+        </shape>
+    </item>
+</layer-list>
+<!-- Summary More/Less button background -->

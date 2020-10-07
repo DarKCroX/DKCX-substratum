@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.AlertDialog.Dark" parent="*eu.kanade.tachiyomi.debug:style/Theme.AlertDialog">
-        <item name="*eu.kanade.tachiyomi.debug:colorSurface">@null</item>
-        <item name="*android:windowBackground">#BF1a1a1a</item>
+    <!--        // Default splash //-->
+    <style name="Theme.Splash" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
+        <item name="*android:windowBackground">@*eu.kanade.tachiyomi.debug:drawable/splash_background</item>
+        <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/backgroundDark</item>
+        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/backgroundDark</item>
+        <item name="*eu.kanade.tachiyomi.debug:colorBackgroundSplash">@*eu.kanade.tachiyomi.debug:color/backgroundDark</item>
     </style>
 
+    <!--        // Long tap on selection at Library/Chapter  //-->
+    <style name="Theme.ActionMode" parent="@*eu.kanade.tachiyomi.debug:style/Base.Widget.AppCompat.ActionMode">
+        <item name="*eu.kanade.tachiyomi.debug:background">@*eu.kanade.tachiyomi.debug:drawable/abc_list_selector_background_transition_holo_light</item> <!--// this //-->
+    </style>
 
-<!--    <style name="Theme.Widget.CardView" parent="@*eu.kanade.tachiyomi.debug:style/CardView">-->
-<!--        <item name="*android:padding">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_top_and_bottom_padding</item>-->
-<!--        <item name="*android:layout_width">fill_parent</item>-->
-<!--        <item name="*android:layout_height">wrap_content</item>-->
-<!--        <item name="*android:layout_marginTop">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>-->
-<!--        <item name="*android:layout_marginBottom">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>-->
-<!--        <item name="*android:layout_marginStart">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>-->
-<!--        <item name="*android:layout_marginEnd">@*eu.kanade.tachiyomi.debug:dimen/material_component_cards_space_between_cards</item>-->
+    <!--        // Setting eg [General->Start screen dialog] //-->
+    <style name="Theme.AlertDialog.Dark" parent="*eu.kanade.tachiyomi.debug:style/Theme.AlertDialog">
+        <item name="*eu.kanade.tachiyomi.debug:colorSurface">@null</item> <!--// this //-->
+        <item name="*android:windowBackground">#BF1a1a1a</item> <!--// this //-->
+    </style>
 
-<!--        <item name="*eu.kanade.tachiyomi.debug:cardBackgroundColor">@*eu.kanade.tachiyomi.debug:color/md_black_1000_12</item>-->
-<!--        <item name="*eu.kanade.tachiyomi.debug:cardElevation">0.0dip</item>-->
-<!--        <item name="*eu.kanade.tachiyomi.debug:cardCornerRadius">8.0dip</item>-->
-<!--    </style>-->
-
+    <!--        // History/Migrate use CardView //-->
     <style name="Theme.Widget.CardView.Item" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Widget.CardView">
         <item name="*android:layout_marginTop">@*eu.kanade.tachiyomi.debug:dimen/space_between_cards</item>
         <item name="*android:layout_marginBottom">@*eu.kanade.tachiyomi.debug:dimen/space_between_cards</item>
 
-        <item name="*eu.kanade.tachiyomi.debug:cardBackgroundColor">@*eu.kanade.tachiyomi.debug:color/md_black_1000_12</item>
-        <item name="*eu.kanade.tachiyomi.debug:cardElevation">0.0dip</item>
-        <item name="*eu.kanade.tachiyomi.debug:cardCornerRadius">8.0dip</item>
+        <item name="*eu.kanade.tachiyomi.debug:cardBackgroundColor">@*eu.kanade.tachiyomi.debug:color/md_black_1000_12</item> <!--// this //-->
+        <item name="*eu.kanade.tachiyomi.debug:cardElevation">0.0dip</item> <!--// this //-->
+        <item name="*eu.kanade.tachiyomi.debug:cardCornerRadius">8.0dip</item> <!--// this //-->
     </style>
 
-<!--    <style name="Widget.Material.ActionBar.Solid">-->
-<!--        <item name="background">?attr/colorPrimary</item>-->
-<!--        <item name="backgroundStacked">?attr/colorPrimary</item>-->
-<!--        <item name="backgroundSplit">?attr/colorPrimary</item>-->
-<!--    </style>-->
-
-
+    <!--        // fix weird box at bottom navigation //-->
     <style name="Widget.Design.BottomNavigationView" parent="">
-        <!--        weird box at bottom navigation-->
-        <item name="*eu.kanade.tachiyomi.debug:elevation">1dp</item>
-        <!--        weird box at bottom navigation-->
+        <item name="*eu.kanade.tachiyomi.debug:elevation">0dp</item> <!--// this //-->
+
         <item name="*eu.kanade.tachiyomi.debug:enforceMaterialTheme">false</item>
         <item name="*eu.kanade.tachiyomi.debug:enforceTextAppearance">false</item>
         <item name="*eu.kanade.tachiyomi.debug:itemBackground">?*android:attr/selectableItemBackgroundBorderless</item>
@@ -48,11 +41,57 @@
         <item name="*eu.kanade.tachiyomi.debug:labelVisibilityMode">auto</item>
     </style>
 
+    <!--        // bottom navigation background //-->
+    <style name="Widget.MaterialComponents.BottomNavigationView.Colored" parent="@*eu.kanade.tachiyomi.debug:style/Widget.MaterialComponents.BottomNavigationView">
+        <item name="*android:background">@*eu.kanade.tachiyomi.debug:drawable/abc_list_selector_background_transition_holo_light</item> <!--// this //-->
 
-    <style name="Theme.Splash" parent="@*eu.kanade.tachiyomi.debug:style/Theme.Base.Dark">
-        <item name="*android:windowBackground">@*eu.kanade.tachiyomi.debug:drawable/splash_background</item>
-        <item name="*android:statusBarColor">@*eu.kanade.tachiyomi.debug:color/backgroundDark</item>
-        <item name="*android:navigationBarColor">@*eu.kanade.tachiyomi.debug:color/backgroundDark</item>
-        <item name="*eu.kanade.tachiyomi.debug:colorBackgroundSplash">@*eu.kanade.tachiyomi.debug:color/backgroundDark</item>
+        <item name="*eu.kanade.tachiyomi.debug:enforceMaterialTheme">true</item>
+        <item name="*eu.kanade.tachiyomi.debug:enforceTextAppearance">true</item>
+        <item name="*eu.kanade.tachiyomi.debug:itemIconTint">@*eu.kanade.tachiyomi.debug:color/mtrl_bottom_nav_colored_item_tint</item>
+        <item name="*eu.kanade.tachiyomi.debug:itemRippleColor">@*eu.kanade.tachiyomi.debug:color/mtrl_bottom_nav_colored_ripple_color</item>
+        <item name="*eu.kanade.tachiyomi.debug:itemTextAppearanceActive">@*eu.kanade.tachiyomi.debug:attr/textAppearanceCaption</item>
+        <item name="*eu.kanade.tachiyomi.debug:itemTextAppearanceInactive">@*eu.kanade.tachiyomi.debug:attr/textAppearanceCaption</item>
+        <item name="*eu.kanade.tachiyomi.debug:itemTextColor">@*eu.kanade.tachiyomi.debug:color/mtrl_bottom_nav_colored_item_tint</item>
+    </style>
+
+    <!--        // More/Less button for manga summary //-->
+    <style name="Theme.Widget.Button.TextButton" parent="*eu.kanade.tachiyomi.debug:style/Widget.MaterialComponents.Button.TextButton">
+        <item name="*android:textColor">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item> <!--// this //-->
+        <item name="*android:background">@*eu.kanade.tachiyomi.debug:drawable/abc_item_background_holo_light</item> <!--// this //-->
+
+        <item name="*android:letterSpacing">0.0</item>
+        <item name="*android:textAllCaps">false</item>
+        <item name="*android:minHeight">0dp</item>
+        <item name="*android:minWidth">0dp</item>
+        <item name="*android:paddingTop">0dp</item>
+        <item name="*android:paddingBottom">0dp</item>
+        <item name="*android:insetTop">0dp</item>
+        <item name="*android:insetBottom">0dp</item>
+        <item name="*eu.kanade.tachiyomi.debug:backgroundTint">@null</item>
+        <item name="*eu.kanade.tachiyomi.debug:rippleColor">@null</item>
+    </style>
+
+    <!--        // Because hard to see tabs on sheet tabs //-->
+    <style name="Theme.Widget.Tabs" parent="@*eu.kanade.tachiyomi.debug:style/Widget.MaterialComponents.TabLayout.Colored">
+        <item name="*android:background">@*eu.kanade.tachiyomi.debug:drawable/abc_list_selector_background_transition_holo_light</item> <!--// this //-->
+
+        <item name="*eu.kanade.tachiyomi.debug:tabGravity">center</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabIndicator">@*eu.kanade.tachiyomi.debug:drawable/tab_indicator</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabIndicatorColor">@*eu.kanade.tachiyomi.debug:color/holo_blue_bright</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabIndicatorFullWidth">false</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabIndicatorHeight">4dp</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabInlineLabel">true</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabMinWidth">75.0dip</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabMode">scrollable</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabTextAppearance">@*eu.kanade.tachiyomi.debug:style/TextAppearance.Widget.Tab</item>
+        <item name="*eu.kanade.tachiyomi.debug:tabTextColor">@*eu.kanade.tachiyomi.debug:color/tabs_selector</item>
+    </style>
+
+    <!--        // Reader sheet smooth corner //-->
+    <style name="ShapeAppearanceOverlay.MaterialComponents.BottomSheet" parent="">
+        <item name="*eu.kanade.tachiyomi.debug:cornerSizeBottomLeft">0.0dip</item>
+        <item name="*eu.kanade.tachiyomi.debug:cornerSizeBottomRight">0.0dip</item>
+        <item name="*eu.kanade.tachiyomi.debug:cornerSizeTopLeft">18dp</item>
+        <item name="*eu.kanade.tachiyomi.debug:cornerSizeTopRight">18dp</item>
     </style>
 </resources>

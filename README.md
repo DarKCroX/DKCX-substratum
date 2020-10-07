@@ -12,4 +12,5 @@
   - [Tachiyomi](https://github.com/inorichi/tachiyomi/)
 
 ### Screenshot
+(outdated screenshot)
 ![](Screenshot.png)

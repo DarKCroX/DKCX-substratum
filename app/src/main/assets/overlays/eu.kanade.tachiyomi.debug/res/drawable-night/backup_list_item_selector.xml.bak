@@ -12,6 +12,8 @@
             <solid android:color="@*android:color/white" />
         </shape>
     </item>
+
+
     <item
         android:bottom="1dp"
         android:left="1dp"
@@ -21,9 +23,10 @@
             <item android:state_activated="true">
                 <shape android:shape="rectangle">
                     <corners android:radius="4dp" />
-                    <solid android:color="#80A1A1A1" />
+                    <solid android:color="#80bfbfbf" />
                 </shape>
             </item>
+
             <item>
                 <shape android:shape="rectangle">
                     <corners android:radius="4dp" />

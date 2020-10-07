@@ -12,6 +12,7 @@
             <solid android:color="@*android:color/white" />
         </shape>
     </item>
+
     <item
         android:bottom="1dp"
         android:left="1dp"
