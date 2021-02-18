@@ -12,7 +12,7 @@
             android:layout_width="fill_parent"
             android:layout_height="?*android:attr/actionBarSize"
             android:layout_gravity="bottom"
-            android:background="@*eu.kanade.tachiyomi.debug:drawable/snackbar_bg"
+            android:background="@*eu.kanade.tachiyomi.debug:drawable/snackbar_background"
             android:theme="?*actionBarTheme"
             app:contentInsetEnd="8.0dip"
             app:contentInsetStart="8.0dip">
@@ -24,4 +24,4 @@
         </com.google.android.material.appbar.MaterialToolbar>
 
 </FrameLayout>
-<!-- Remove CardView -->
+<!-- CardView removed-->

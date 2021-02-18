@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="eu.kanade.tachiyomi.debug"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@*eu.kanade.tachiyomi.debug:id/tabs"
+            style="@*eu.kanade.tachiyomi.debug:style/Theme.Widget.Tabs"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@*eu.kanade.tachiyomi.debug:id/menu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:tabGravity="fill"
+            app:tabIndicatorColor="?*colorAccent"
+            app:tabMode="fixed"
+            app:tabTextColor="@*eu.kanade.tachiyomi.debug:color/tabs_selector_background" />
+
+        <ImageButton
+            android:id="@*eu.kanade.tachiyomi.debug:id/menu"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:background="?*android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@*eu.kanade.tachiyomi.debug:string/action_menu"
+            android:paddingStart="10.0dip"
+            android:paddingEnd="10.0dip"
+            android:visibility="gone"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:tint="?*attr/colorOnBackground"
+            app:srcCompat="@*eu.kanade.tachiyomi.debug:drawable/ic_more_vert_24dp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@*eu.kanade.tachiyomi.debug:id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

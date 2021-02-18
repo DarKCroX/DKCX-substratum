@@ -13,6 +13,7 @@
         <item name="*eu.kanade.tachiyomi.debug:actionBarTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
         <item name="*eu.kanade.tachiyomi.debug:actionBarPopupTheme">@*eu.kanade.tachiyomi.debug:style/ThemeOverlay.MaterialComponents</item>
         <item name="*eu.kanade.tachiyomi.debug:switchStyle">@*eu.kanade.tachiyomi.debug:style/Theme.Widget.BasicSwitch</item>
+        <item name="*eu.kanade.tachiyomi.debug:bottomSheetDialogTheme">@*eu.kanade.tachiyomi.debug:style/Theme.BottomSheet</item>
 
         <item name="*android:windowShowWallpaper">true</item>
         <item name="*android:backgroundDimEnabled">false</item>

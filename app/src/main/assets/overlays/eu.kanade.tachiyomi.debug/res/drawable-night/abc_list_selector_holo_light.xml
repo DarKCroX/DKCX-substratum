@@ -3,30 +3,29 @@
     <item>
         <shape android:shape="rectangle">
             <corners
-                android:bottomLeftRadius="8dp"
-                android:bottomRightRadius="8dp" />
+                android:topLeftRadius="8dp"
+                android:topRightRadius="8dp" />
             <gradient
-                android:angle="90"
+
                 android:endColor="#0000"
                 android:startColor="@*eu.kanade.tachiyomi.debug:color/holo_blue_bright" />
 
         </shape>
     </item>
     <item
-        android:bottom="2dp"
+        android:bottom="0dp"
         android:left="2dp"
         android:right="2dp"
-        android:top="0dp">
+        android:top="2dp">
         <shape android:shape="rectangle">
             <gradient
-                android:angle="90"
+
                 android:endColor="#0000"
                 android:startColor="#bf1a1a1a" />
             <corners
-                android:bottomLeftRadius="8dp"
-                android:bottomRightRadius="8dp" />
+                android:topLeftRadius="8dp"
+                android:topRightRadius="8dp" />
         </shape>
     </item>
 
-</layer-list>
-<!-- usage: tabs, ActionMode/bar -->
+</layer-list><!-- usage: bottom navigation, tabs, ActionMode/bar -->
